@@ -1,0 +1,131 @@
+body {
+    height: 100%;
+}
+
+
+.impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.menu-impact {
+    font-size: 24;
+    color: white;
+
+}
+h1 {
+    font-size: 72px
+}
+.sizemiddle{
+    width:40%;
+    margin:auto;
+    min-width: 360px;
+}
+.nav-tsad{
+    color: white
+}
+.card{
+    margin: 15px;
+    min-width: 128px;
+    display: block;
+}
+
+#page-containercus {
+    position: relative;
+    min-height: 75vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;           /* Footer height */
+
+
+  }
+
+
+.leftcard{
+    position:absolute; 
+    top: 80px; 
+    right: 10px
+}
+.pageleft{
+    position: absolute;
+    left: 0px;
+    right: 350px;
+    width: calc(100% -350px);
+}
+
+.search_page2{
+    position: absolute;
+    right: 0px;
+    background-color: red;
+}
+
+/* Bootstrap */
+  .card-hover:hover{
+      border-color: rgb(206, 0, 0);
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .card-img-top{
+      width: calc(100% - 10px);
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+
+  .item img {
+    height: 450px !important;
+    width: 850px !important;
+}
+
+
+
+  /* Twitter */
+  .twitter-typeahead {
+    width: 100%;
+  }
+  
+  .tt-hint {
+      color: grey;
+  }
+
+@media screen and (max-width: 768px) {
+    .card {
+        position: relative;
+        width: 400px;
+        left: 0px;
+        display:inline-block;
+        margin: 0;
+    }
+    .card {
+        position: relative;
+        width: 400px;
+        left: 0px;
+        display:inline-block;
+        margin: 0;
+    }
+    .leftcard{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        margin-bottom: 100px;
+        
+    }
+    .pageleft{
+        position: relative;
+        right: 0px;
+    }
+    
+}
